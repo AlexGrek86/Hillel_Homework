@@ -9,3 +9,5 @@ for i in names:
         unique_names.append(i)
 
 print(unique_names)
+# Good and work solution but it could be solved in one line in python.
+# print(list({}.fromkeys(gruppa).keys()))

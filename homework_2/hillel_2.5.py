@@ -9,3 +9,4 @@ common_hall.update(vip_hall.symmetric_difference(guests_all))
 
 print(vip_hall)
 print(common_hall)
+# Good but in this case I can increase you guests_vip since it is mutable type.
