@@ -1,6 +1,6 @@
 numbers_list = [1, 2, 3, 4, 5, 6, 7, 8]
-
 new_list = []
+
 for index, value in enumerate(numbers_list):
     if index % 2 > 0 and index != 0:
         new_list.append((index, value))
@@ -8,3 +8,5 @@ for index, value in enumerate(numbers_list):
         continue
 
 print(new_list)
+
+# TODO: You have separate in additional list only elements with odd indexes
