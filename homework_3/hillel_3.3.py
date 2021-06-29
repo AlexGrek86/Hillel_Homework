@@ -8,5 +8,3 @@ for friend in friends:
         print(f'{friend} we are the best friends.')
     else:
         print(f'{friend} we are not the friends anymore.')
-
-# TODO: # You shouldn't check friend if name of friend is James
