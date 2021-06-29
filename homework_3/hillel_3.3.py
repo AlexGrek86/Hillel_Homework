@@ -3,7 +3,7 @@ enemies = ["John", "Jonatan", "Artur"]
 
 for friend in friends:
     if friend == 'James':
-        print(f'{friend} we are the best friends.')
+        continue
     elif friend not in enemies:
         print(f'{friend} we are the best friends.')
     else:
