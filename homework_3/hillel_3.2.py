@@ -9,5 +9,4 @@ print(number << 1)
 print(number / 2)
 print(number >> 1)
 
-
-
+# Good. To much empty lines in the end of module
