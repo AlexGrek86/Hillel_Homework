@@ -11,3 +11,7 @@ def square(sd):
 
 
 print(square(5))
+
+# Good but sd not clear argument. No docstrings which can described what is it
+# and not annotations.
+# - 1 points

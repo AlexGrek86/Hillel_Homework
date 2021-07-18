@@ -15,4 +15,7 @@ def is_prime(n):
     return True
 
 
-print(is_prime(2))
+print(is_prime(12))
+
+# Good but no annotations in function and docstring.
+# -1 point
