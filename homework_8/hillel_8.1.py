@@ -18,3 +18,12 @@ def sum_1(a: int, b: int) -> int:
 @decorator_func
 def multiplication(a: int, b: int) -> int:
     return print(a * b)
+
+
+if __name__ == '__main__':
+    sum_1(1, 2)
+    multiplication(1, 2)
+    # Seems like errors in code
+    # TypeError: 'NoneType'
+    # object is not callable
+    # -5 poitns
